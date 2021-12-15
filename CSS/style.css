@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    font-family: 'Mukta', sans-serif;
+    position: relative;
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.heading {
+    width: 100%;
+    height: 60px;
+    background-color: #292b2c;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading #title {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.time #showTime {
+    float: right;
+    font-size: 25px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+#createNote {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px
+}
+
+#createNote #createBtn {
+    font-size: 23px;
+    margin-left: 31px;
+    width: 183px;
+    background-color: #0275d8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #0275d8;
+    height: 60px;
+}
+
+#writeNote {
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+#writeNote .note {
+    border: 1px solid black;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+#writeNote #cancel {
+    display: flex;
+    flex-direction: row;
+}
+
+#writeNote #cancel .add {
+    height: 35px;
+    background-color: #5bc0de;
+    border: none;
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#writeNote #cancel .cancel {
+    height: 35px;
+    background-color: #d9534f;
+    border: none;
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.showNote {
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.showNote .showItem {
+    border: 1px rgb(0, 0, 0, 0.125);
+    box-shadow: 0px 0px 10px gray;
+    margin-left: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-top: 30px;
+}
+
+.showNote .showItem .noteBody {
+    width: 18rem;
+    height: 100%;
+}
+
+.showNote .showItem .noteBody p {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.showNote .showItem .noteBody .deleteBtn {
+    width: 27px;
+    height: 34px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    margin-top: 90px;
+}
+
+.showNote .showItem .noteBody .deleteBtn i {
+    cursor: pointer;
+}
+
+#writeNote textarea {
+    display: none;
+}
+
+#writeNote #addNote {
+    display: none;
+}
+
+#writeNote #cancel .cancel {
+    display: none;
+}

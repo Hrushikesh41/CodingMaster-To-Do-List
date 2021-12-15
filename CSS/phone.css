@@ -1,0 +1,31 @@
+#createNote {
+    display: flex;
+    flex-direction: column;
+}
+
+#createNote #createBtn {
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+#writeNote .note {
+    width: 250%;
+    margin-left: 14px;
+}
+
+#writeNote #cancel {
+    margin-left: 18px;
+    width: 141%;
+}
+
+#writeNote #cancel .add {
+    width: 50%;
+}
+
+#writeNote #cancel .cancel {
+    width: 50%;
+}
+
+.showNote .showItem {
+    margin-left: 37px;
+}

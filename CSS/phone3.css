@@ -1,0 +1,55 @@
+.heading #title {
+    margin-top: 16px;
+    font-size: 14px;
+    margin-right: 75px;
+}
+
+.time #showTime {
+    margin-right: 121px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#createNote h1 {
+    font-size: 16px;
+    margin-left: 37px;
+}
+
+#createNote #createBtn {
+    font-size: 10px;
+    width: 100px;
+    height: 25px;
+    margin-left: 46px;
+}
+
+#writeNote .note {
+    height: 80px;
+    width: 135%;
+    margin-left: 28px;
+}
+
+#writeNote #cancel {
+    margin-left: 27px;
+}
+
+.showNote .showItem {
+    margin-left: 61px;
+    width: 127px;
+    height: 143px;
+}
+
+.showNote .showItem .noteBody {
+    width: 8rem;
+}
+
+.showNote .showItem .noteBody h2 {
+    font-size: 17px
+}
+
+.showNote .showItem .noteBody p {
+    font-size: 15px;
+}
+
+.showNote .showItem .noteBody .deleteBtn {
+    margin-top: 21px;
+}
